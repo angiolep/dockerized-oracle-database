@@ -1,6 +1,6 @@
 
 ORACLE_PDB=${ORACLE_PDB:-ORCLPDB1}
-ORACLE_USER=${ORACLE_PDB:-SCOTT}
+ORACLE_USER=${ORACLE_USER:-SCOTT}
 
 sqlplus -s / as sysdba << EOF
   alter session set container = $ORACLE_PDB;
