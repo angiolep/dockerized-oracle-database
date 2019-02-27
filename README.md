@@ -1,4 +1,4 @@
-# oracle-database-docker
+# oracle-database
 
 This project provides some few docker files to build images for Oracle databases.
 
